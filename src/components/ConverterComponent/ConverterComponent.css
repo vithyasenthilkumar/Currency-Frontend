@@ -1,0 +1,67 @@
+  *{
+    background-color:cadetblue;
+  }
+  .master {
+    display: flex;
+    gap: 2rem;
+    width: 100vw;
+    background-color:cadetblue;
+    padding: 2rem 4rem;
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .user-input {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50vw;
+    color:black;
+  }
+  .user-input .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  select {
+    width: 50%;
+    color:rgb(23, 22, 22);
+    background-color:darkgray;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+  }
+  
+  input:focus,
+  select:focus {
+    outline: none;
+  }
+  
+  input {
+    width: 100%;
+    color: black;
+    background-color:darkgray;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border: 1px solid black;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 4rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
